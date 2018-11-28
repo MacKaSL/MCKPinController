@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MCKPinController"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A controller for authenticating a pin number."
 
   # This description is used to generate tags and improve search results.
