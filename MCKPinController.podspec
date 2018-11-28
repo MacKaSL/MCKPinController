@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  spec.vendored_frameworks = 'MCKPinController.framework'
+  s.vendored_frameworks = 'MCKPinController.framework'
 
   s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.5" }
   # s.source       = { :path => '.' }
