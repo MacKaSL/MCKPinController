@@ -38,10 +38,10 @@ Pod::Spec.new do |s|
   # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
 
   # s.source_files  = "MCKPinController"
-   s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
+  # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
   # s.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
   # s.source_files = 'MCKPinController/*.{h,swift,storyboard,xcassets}'
-  # s.source_files = 'MCKPinController/*.h','MCKPinController/*.swift','MCKPinController/*.storyboard','MCKPinController/*.xcassets
+   s.ios.source_files = 'MCKPinController/*.h','MCKPinController/*.swift','MCKPinController/*.storyboard','MCKPinController/*.xcassets'
   # s.source_files = 'MCKPinController/**/*.framework'
 
   s.swift_version = '4.0'
