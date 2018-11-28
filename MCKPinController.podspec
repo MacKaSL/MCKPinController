@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   # s.source       = { :git => "https://github.com/MacKaSL/MCKPinController.git", :tag => "1.0.0" }
-  s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip' }
+  s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
 
   s.source_files  = "MCKPinController"
   s.ios.vendored_frameworks = 'MCKPinController.framework'
