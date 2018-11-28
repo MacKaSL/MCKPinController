@@ -40,11 +40,15 @@ Pod::Spec.new do |s|
   s.swift_version = '4.0'
   s.ios.deployment_target = '9.0'
 
+  
+  s.ios.vendored_frameworks = 'MCKPinController.framework'
+
   # s.source       = { :git => "https://github.com/MacKaSL/MCKPinController.git", :tag => "1.0.0" }
   s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
 
-  s.source_files  = "MCKPinController"
-  s.ios.vendored_frameworks = 'MCKPinController.framework'
+  # s.source_files  = "MCKPinController"
+  # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
+  
   s.requires_arc = true
   
   # s.public_header_files = "Classes/**/*.h"
