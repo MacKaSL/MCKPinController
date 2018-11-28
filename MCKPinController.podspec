@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   spec.vendored_frameworks = 'MCKPinController.framework'
 
-  s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.4" }
+  s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.5" }
   # s.source       = { :path => '.' }
   # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
 
