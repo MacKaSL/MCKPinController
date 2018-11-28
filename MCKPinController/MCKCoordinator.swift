@@ -11,7 +11,8 @@ import UIKit
 public class MCKPinController {
     
     private static var pinController: MCKPinViewController = {
-        let storyboard = UIStoryboard(name: "Storyboard", bundle: Bundle.init(for: MCKPinViewController.self))
+        let bundle = Bundle(identifier: "com.macka.MCKPinController")
+        let storyboard = UIStoryboard(name: "Storyboard", bundle: bundle)
         let pinController = storyboard.instantiateViewController(withIdentifier: "MCKPinViewController") as! MCKPinViewController
         return pinController
     }()
