@@ -8,40 +8,41 @@
 
 Pod::Spec.new do |s|
 
-  s.platform     = :ios, "9.0"
-  s.swift_version = '4.0'
-  s.ios.deployment_target = '9.0'
-  s.requires_arc = true
+  
+  
+  # s.ios.deployment_target = '9.0'
+  # s.requires_arc = true
 
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MCKPinController"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "A controller for authenticating a pin number."
   s.description  = "A fully configurable controller for validating a pin number."
 
   s.homepage     = "https://himalmadhushan.weebly.com/"
-  s.screenshots  = "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-1.png", "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-1.PNG", "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-3.PNG"
+  # s.screenshots  = "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-1.png", "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-1.PNG", "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-3.PNG"
 
-  s.license      = "MIT"
+  s.license            = "MIT"
   s.author             = { "Himal Madhushan" => "mackacodes@gmail.com" }
   s.social_media_url   = "https://twitter.com/himalmadhushan"
 
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.vendored_frameworks = 'MCKPinController.framework'
+  s.platform     = :ios, "9.0"
 
-  # s.source       = { :git => "https://github.com/MacKaSL/MCKPinController.git", :tag => "1.0.0" }
-  s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
+  # s.ios.vendored_frameworks = 'MCKPinController.framework'
 
-  # s.source_files  = "MCKPinController"
+  s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4" }
+  # s.source       = { :path => '.' }
+  # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
+
+   s.source_files  = "MCKPinController"
   # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
-  s.ios.source_files = "RGB/**/*.{h,swift,storyboard,xcassets}
-  
-  
-  # s.public_header_files = "Classes/**/*.h"
+  # s.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
+  # s.source_files = 'MCKPinController/*.{h,swift,storyboard,xcassets}'
+  # s.source_files = 'MCKPinController/*.h','MCKPinController/*.swift','MCKPinController/*.storyboard','MCKPinController/*.xcassets
+  # s.source_files = 'MCKPinController/**/*.framework'
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-
+  s.swift_version = '4.0'
 end

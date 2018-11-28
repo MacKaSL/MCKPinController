@@ -14,7 +14,7 @@
 		01F246B721AD8307000B41D8 /* MCKPinControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F246B621AD8307000B41D8 /* MCKPinControllerTests.swift */; };
 		01F246B921AD8307000B41D8 /* MCKPinController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F246AB21AD8307000B41D8 /* MCKPinController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01F246C721AD848B000B41D8 /* MCKPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F246C621AD848B000B41D8 /* MCKPinViewController.swift */; };
-		01F2473921ADD3C2000B41D8 /* Storyboard.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 01F2473821ADD3C2000B41D8 /* Storyboard.storyboard */; };
+		01F2473921ADD3C2000B41D8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F2473821ADD3C2000B41D8 /* Storyboard.storyboard */; };
 		01F2473B21ADD7B1000B41D8 /* MCKCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F2473A21ADD7B1000B41D8 /* MCKCoordinator.swift */; };
 		01F2474221ADE24B000B41D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F2474121ADE24B000B41D8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -200,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F2474221ADE24B000B41D8 /* Assets.xcassets in Resources */,
+				01F2473921ADD3C2000B41D8 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +222,6 @@
 				011011A121AEBB2000C394AB /* MCKConfiguration.swift in Sources */,
 				01F246C721AD848B000B41D8 /* MCKPinViewController.swift in Sources */,
 				0110119F21AEBAFB00C394AB /* Appearance.swift in Sources */,
-				01F2473921ADD3C2000B41D8 /* Storyboard.storyboard in Sources */,
 				01F2473B21ADD7B1000B41D8 /* MCKCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
