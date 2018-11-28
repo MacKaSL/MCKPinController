@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://himalmadhushan.weebly.com/"
   # s.screenshots  = "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-1.png", "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-1.PNG", "https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-3.PNG"
 
-  s.license            = "MIT"
+  s.license            = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "Himal Madhushan" => "mackacodes@gmail.com" }
   s.social_media_url   = "https://twitter.com/himalmadhushan"
 
@@ -31,16 +31,19 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  # s.ios.vendored_frameworks = 'MCKPinController.framework'
+  spec.vendored_frameworks = 'MCKPinController.framework'
 
   s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.4" }
   # s.source       = { :path => '.' }
   # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
 
   # s.source_files  = "MCKPinController"
-   s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard', 'MCKPinController/Assets.xcassets'
-  # s.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard'
-  # s.source_files = 'MCKPinController/*.{h,swift,storyboard,xcassets}'
+  # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard', 'MCKPinController/Assets.xcassets'
+  # s.source_files   = 'MCKPinController/*.swift'
+
+   s.ios.source_files = 'MCKPinController/*.{h,swift,storyboard}'
+   s.resources = ['MCKPinController/Storyboard.storyboard', 'MCKPinController/Assets.xcassets/*']
+
   # s.ios.source_files = 'MCKPinController/*.h','MCKPinController/*.swift','MCKPinController/*.storyboard','MCKPinController/*.xcassets'
   # s.source_files = 'MCKPinController/**/*.framework'
 
