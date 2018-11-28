@@ -9,6 +9,13 @@
 
 MCKPinController is a pin authentication controller written in Swift.
 
+:iphone: iOS 9 or above
+
+:hammer: Swift 4
+
+:smiley: Happy coding
+
+
 ## Usage
 
 - [Pods](#pods)
