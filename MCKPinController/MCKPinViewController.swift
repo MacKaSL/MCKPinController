@@ -66,6 +66,11 @@ class MCKPinViewController: UIViewController {
         title = "Pin Controller"
         navigationController?.setNavigationBarHidden(true, animated: false)
         
+        let bundle = Bundle(identifier: "org.cocoapods.MCKPinControllerResourse")
+        let ss = UIImage(named: "clear", in: bundle, compatibleWith: nil)
+        let backspaceButton = self.view.viewWithTag(-1) as! UIButton
+        backspaceButton.setImage(ss, for: .normal)
+        
         updateContainerViewHeight()
         configurations.imageChanged = {
             self.imageViewLogo.image = self.configurations.image
@@ -77,6 +82,7 @@ class MCKPinViewController: UIViewController {
         configureNumberOfDots()
         configureGeneralAppearance()
         configureNumberPadAppearance()
+        
     }
     
     public override func viewWillAppear(_ animated: Bool) {
