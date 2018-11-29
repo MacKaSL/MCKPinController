@@ -19,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0z-cv-trO">
-                                <rect key="frame" x="42.5" y="83.5" width="290" height="500"/>
+                                <rect key="frame" x="42.5" y="63.5" width="290" height="540"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAM-Rk-3a6">
-                                        <rect key="frame" x="0.0" y="0.0" width="290" height="500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="540"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="u2f-21-xQA">
-                                            <rect key="frame" x="0.0" y="0.0" width="290" height="500"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="290" height="540"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vcp-Bz-nEF">
-                                                    <rect key="frame" x="45" y="27.5" width="200" height="445"/>
+                                                    <rect key="frame" x="45" y="47.5" width="200" height="445"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="rZG-bT-UzV">
                                                             <rect key="frame" x="100" y="0.0" width="0.0" height="0.0"/>
@@ -403,7 +403,7 @@
                                         </view>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="290" id="1lG-XH-78j"/>
-                                            <constraint firstAttribute="height" constant="500" id="SKl-ls-1il"/>
+                                            <constraint firstAttribute="height" constant="540" id="SKl-ls-1il"/>
                                         </constraints>
                                         <blurEffect style="dark"/>
                                         <userDefinedRuntimeAttributes>

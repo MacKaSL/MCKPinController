@@ -51,6 +51,10 @@ public struct MCKNumberPadAppearance {
     
     public var borderWidth: CGFloat = 1
     
+    public var backspaceTitle: String = String("↩︎")
+    
+    public var backspaceImage: UIImage?
+    
     /// Default is set to `rounded`.
     public var layerType: MCKLayerType = .rounded
     

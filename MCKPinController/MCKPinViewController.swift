@@ -24,7 +24,7 @@ class MCKPinViewController: UIViewController {
     @IBOutlet private weak var containerView: UIStackView!
     @IBOutlet private weak var imageViewHeightConst: NSLayoutConstraint!
     
-    private static var defaultContainerHeight: CGFloat = 140
+    private static var defaultContainerHeight: CGFloat = 100
     
     /// When reset is called, top 4 dots will shake to indicate whether the attempt is success or not. Defaule is set to false.
     private var shouldShakeOnReset: Bool {
@@ -66,16 +66,6 @@ class MCKPinViewController: UIViewController {
         title = "Pin Controller"
         navigationController?.setNavigationBarHidden(true, animated: false)
         
-        let bundle = Bundle(for: MCKPinViewController.self)
-//        let resourceBundleURL = curBundle.resourceURL?.appendingPathComponent("MCKPinController.bundle")
-//        let resourceBundle = Bundle(url: resourceBundleURL!)
-        
-        
-//        let bundle = Bundle(identifier: "org.cocoapods.MCKPinController")
-        let imgClear = UIImage(named: "clear", in: bundle, compatibleWith: nil)
-        let backspaceButton = self.view.viewWithTag(-1) as! UIButton
-        backspaceButton.setImage(imgClear, for: .normal)
-        
         updateContainerViewHeight()
         configurations.imageChanged = {
             self.imageViewLogo.image = self.configurations.image
@@ -115,7 +105,7 @@ class MCKPinViewController: UIViewController {
     }
     
     private func updateContainerViewHeight() {
-        let newHeight: CGFloat = (configurations.image != nil) ? MCKPinViewController.defaultContainerHeight : (MCKPinViewController.defaultContainerHeight - 105)
+        let newHeight: CGFloat = (configurations.image != nil) ? MCKPinViewController.defaultContainerHeight : (MCKPinViewController.defaultContainerHeight - 75)
         view.layoutIfNeeded()
         UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .beginFromCurrentState, animations: {
             self.imageViewHeightConst.constant = newHeight
@@ -150,8 +140,17 @@ class MCKPinViewController: UIViewController {
         let backspaceButton = self.view.viewWithTag(-1) as! UIButton
         backspaceButton.backgroundColor = numberPadAppearance.fillingColor
         backspaceButton.tintColor = numberPadAppearance.textColor
+        backspaceButton.setTitleColor(numberPadAppearance.textColor, for: .normal)
         backspaceButton.layer.borderWidth = numberPadAppearance.borderWidth
         backspaceButton.layer.borderColor = numberPadAppearance.borderColor.cgColor
+        
+        if let backImage = numberPadAppearance.backspaceImage {
+            backspaceButton.setImage(backImage, for: .normal)
+            backspaceButton.setTitle(nil, for: .normal)
+        } else {
+            backspaceButton.setTitle(numberPadAppearance.backspaceTitle, for: .normal)
+        }
+        
         switch numberPadAppearance.layerType {
         case .rounded:
             backspaceButton.isBtnRounded = true

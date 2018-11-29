@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MCKPinController"
-  s.version      = "1.0.4.2"
+  s.version      = "1.0.4.3"
   s.summary      = "A controller for authenticating a pin number."
   s.description  = "A fully configurable controller for validating a pin number."
 
@@ -38,14 +38,17 @@ Pod::Spec.new do |s|
    s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
   # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip' }
 
+
+
   # s.source_files  = "MCKPinController"
   # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard', 'MCKPinController/Assets.xcassets'
   # s.source_files   = 'MCKPinController/*.swift'
-
   # s.ios.source_files = 'MCKPinController/*.{h,swift,storyboard}'
    
-  # s.resources = ['MCKPinController/Assets.xcassets/*']
 
+  s.resource = 'MCKPinController/**/*.png'
+
+  # s.resources  = "MCKPinController/Assets.xcassets"
   # s.resource_bundle = { 'MCKPinController' => 'MCKPinController/Assets.xcassets/**/*.{json,png}' }
 
   # s.ios.source_files = 'MCKPinController/*.h','MCKPinController/*.swift','MCKPinController/*.storyboard','MCKPinController/*.xcassets'
