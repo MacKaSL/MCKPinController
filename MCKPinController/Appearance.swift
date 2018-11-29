@@ -51,7 +51,8 @@ public struct MCKNumberPadAppearance {
     
     public var borderWidth: CGFloat = 1
     
-    public var backspaceTitle: String = String("↩︎")
+    /// Sets the text to titleLabel of the backspace button, Ex: String("↩︎")
+    public var backspaceTitle: String? // = ""
     
     public var backspaceImage: UIImage?
     

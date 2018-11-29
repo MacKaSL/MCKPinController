@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MCKPinController"
-  s.version      = "1.0.4.3"
+  s.version      = "1.0.5"
   s.summary      = "A controller for authenticating a pin number."
   s.description  = "A fully configurable controller for validating a pin number."
 
