@@ -132,6 +132,14 @@ backspaceTitle: String
 backspaceImage: UIImage
 layerType: MCKLayerType
 ```
+When you want to have custom image or text on delete button, use below properties to configure it.
+```
+backspaceTitle: String
+backspaceImage: UIImage
+```
+Note: If you set both image and text, only the image will appear. Only one at a time.
+1. Image
+2. Text
 
 Example:
 ```
