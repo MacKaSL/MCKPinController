@@ -148,8 +148,10 @@ class MCKPinViewController: UIViewController {
             backspaceButton.setImage(backImage, for: .normal)
             backspaceButton.setTitle(nil, for: .normal)
         } else {
-            backspaceButton.setTitle(numberPadAppearance.backspaceTitle, for: .normal)
-            backspaceButton.setImage(nil, for: .normal)
+            if let title = numberPadAppearance.backspaceTitle, !title.isEmpty {
+                backspaceButton.setTitle(title, for: .normal)
+                backspaceButton.setImage(nil, for: .normal)
+            }
         }
         
         switch numberPadAppearance.layerType {
