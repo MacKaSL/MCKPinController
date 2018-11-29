@@ -26,7 +26,7 @@ MCKPinController is a pin authentication controller written in Swift.
 ```
 source 'https://github.com/CocoaPods/Specs.git'
 target '<TARGET_NAME>' do
-pod 'MCKPinController', '~> 1.0.0'
+  pod 'MCKPinController', '~> 1.0.5'
 end
 ```
 
@@ -128,6 +128,8 @@ fillingColor: UIColor
 borderColor: UIColor
 textColor: UIColor
 borderWidth: CGFloat
+backspaceTitle: String
+backspaceImage: UIImage
 layerType: MCKLayerType
 ```
 
@@ -136,6 +138,7 @@ Example:
 var numberPad = MCKNumberPadAppearance()
 numberPad.textColor = color
 numberPad.borderColor = color
+numberPad.backspaceTitle = "↩︎"
 config.appearance.numberPad = numberPad
 ```
 
