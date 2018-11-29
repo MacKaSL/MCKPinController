@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.5"
   s.summary      = "A controller for authenticating a pin number."
   s.description  = "A fully configurable controller for validating a pin number."
-
+  s.documentation_url = 'https://github.com/MacKaSL/MCKPinController/blob/master/README.md'
   s.homepage     = "https://himalmadhushan.weebly.com/"
   s.license            = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "Himal Madhushan" => "mackacodes@gmail.com" }
