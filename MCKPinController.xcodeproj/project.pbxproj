@@ -10,6 +10,9 @@
 		0110119F21AEBAFB00C394AB /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110119E21AEBAFB00C394AB /* Appearance.swift */; };
 		011011A121AEBB2000C394AB /* MCKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011011A021AEBB2000C394AB /* MCKConfiguration.swift */; };
 		011011A321AEBB5300C394AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011011A221AEBB5300C394AB /* Extensions.swift */; };
+		0194E21321AFE72B00C77279 /* clear@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194E21021AFE72B00C77279 /* clear@1x.png */; };
+		0194E21421AFE72B00C77279 /* clear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194E21121AFE72B00C77279 /* clear@3x.png */; };
+		0194E21521AFE72B00C77279 /* clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194E21221AFE72B00C77279 /* clear@2x.png */; };
 		01F246B221AD8307000B41D8 /* MCKPinController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F246A821AD8307000B41D8 /* MCKPinController.framework */; };
 		01F246B721AD8307000B41D8 /* MCKPinControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F246B621AD8307000B41D8 /* MCKPinControllerTests.swift */; };
 		01F246B921AD8307000B41D8 /* MCKPinController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F246AB21AD8307000B41D8 /* MCKPinController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +36,9 @@
 		0110119E21AEBAFB00C394AB /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		011011A021AEBB2000C394AB /* MCKConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCKConfiguration.swift; sourceTree = "<group>"; };
 		011011A221AEBB5300C394AB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0194E21021AFE72B00C77279 /* clear@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear@1x.png"; sourceTree = "<group>"; };
+		0194E21121AFE72B00C77279 /* clear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear@3x.png"; sourceTree = "<group>"; };
+		0194E21221AFE72B00C77279 /* clear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear@2x.png"; sourceTree = "<group>"; };
 		01F246A821AD8307000B41D8 /* MCKPinController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCKPinController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F246AB21AD8307000B41D8 /* MCKPinController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKPinController.h; sourceTree = "<group>"; };
 		01F246AC21AD8307000B41D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +100,9 @@
 				01F2473821ADD3C2000B41D8 /* Storyboard.storyboard */,
 				01F2474121ADE24B000B41D8 /* Assets.xcassets */,
 				01F246AC21AD8307000B41D8 /* Info.plist */,
+				0194E21021AFE72B00C77279 /* clear@1x.png */,
+				0194E21221AFE72B00C77279 /* clear@2x.png */,
+				0194E21121AFE72B00C77279 /* clear@3x.png */,
 			);
 			path = MCKPinController;
 			sourceTree = "<group>";
@@ -199,6 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0194E21321AFE72B00C77279 /* clear@1x.png in Resources */,
+				0194E21521AFE72B00C77279 /* clear@2x.png in Resources */,
+				0194E21421AFE72B00C77279 /* clear@3x.png in Resources */,
 				01F2474221ADE24B000B41D8 /* Assets.xcassets in Resources */,
 				01F2473921ADD3C2000B41D8 /* Storyboard.storyboard in Resources */,
 			);
