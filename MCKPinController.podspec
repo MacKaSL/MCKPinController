@@ -31,21 +31,22 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  # s.vendored_frameworks = 'MCKPinController.framework'
+   s.vendored_frameworks = 'MCKPinController.framework'
 
   s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.19" }
   # s.source       = { :path => '.' }
   # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
+   s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip' }
 
   # s.source_files  = "MCKPinController"
   # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard', 'MCKPinController/Assets.xcassets'
   # s.source_files   = 'MCKPinController/*.swift'
 
-   s.ios.source_files = 'MCKPinController/*.{h,swift,storyboard}'
+  # s.ios.source_files = 'MCKPinController/*.{h,swift,storyboard}'
    
   # s.resources = ['MCKPinController/Assets.xcassets/*']
 
-   s.resource_bundle = { 'MCKPinController' => 'MCKPinController/Assets.xcassets/**/*.{json,png}' }
+  # s.resource_bundle = { 'MCKPinController' => 'MCKPinController/Assets.xcassets/**/*.{json,png}' }
 
   # s.ios.source_files = 'MCKPinController/*.h','MCKPinController/*.swift','MCKPinController/*.storyboard','MCKPinController/*.xcassets'
   # s.source_files = 'MCKPinController/**/*.framework'
