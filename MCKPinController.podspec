@@ -33,10 +33,10 @@ Pod::Spec.new do |s|
 
    s.vendored_frameworks = 'MCKPinController.framework'
 
-  s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.19" }
+  s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.20" }
   # s.source       = { :path => '.' }
-  # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
-   s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip' }
+   s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
+  # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip' }
 
   # s.source_files  = "MCKPinController"
   # s.ios.source_files   = 'MCKPinController/*.swift', 'MCKPinController/Storyboard.storyboard', 'MCKPinController/Assets.xcassets'
