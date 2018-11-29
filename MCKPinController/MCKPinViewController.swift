@@ -66,8 +66,13 @@ class MCKPinViewController: UIViewController {
         title = "Pin Controller"
         navigationController?.setNavigationBarHidden(true, animated: false)
         
-        let bundle = Bundle(identifier: "org.cocoapods.MCKPinController")
-        let ss = UIImage(named: "clear@2x", in: bundle, compatibleWith: nil)
+        let curBundle = Bundle(for: MCKPinViewController.self)
+        let resourceBundleURL = curBundle.resourceURL?.appendingPathComponent("MCKPinController.bundle")
+        let resourceBundle = Bundle(url: resourceBundleURL!)
+        
+        
+//        let bundle = Bundle(identifier: "org.cocoapods.MCKPinController")
+        let ss = UIImage(named: "clear", in: resourceBundle, compatibleWith: nil)
         let backspaceButton = self.view.viewWithTag(-1) as! UIButton
         backspaceButton.setImage(ss, for: .normal)
         
