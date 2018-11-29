@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MCKPinController"
-  s.version      = "1.0.4"
+  s.version      = "1.0.4.1"
   s.summary      = "A controller for authenticating a pin number."
   s.description  = "A fully configurable controller for validating a pin number."
 
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-   s.vendored_frameworks = 'MCKPinController.framework'
+   s.ios.vendored_frameworks = 'MCKPinController.framework'
 
-  s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.20" }
+  # s.source       = { :git => 'https://github.com/MacKaSL/MCKPinController.git', :tag => "1.0.4.20" }
   # s.source       = { :path => '.' }
    s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip?raw=true' }
   # s.source       = { :http => 'https://github.com/MacKaSL/MCKPinController/blob/master/MCKPinController.zip' }
