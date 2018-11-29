@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   # s.ios.source_files = 'MCKPinController/*.{h,swift,storyboard}'
    
 
-  s.resource = 'MCKPinController/**/*.png'
+  # s.resource = 'MCKPinController/**/*.png'
 
   # s.resources  = "MCKPinController/Assets.xcassets"
   # s.resource_bundle = { 'MCKPinController' => 'MCKPinController/Assets.xcassets/**/*.{json,png}' }
