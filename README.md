@@ -2,7 +2,7 @@
 
 ### A fully configurable controller for validating a pin number.
 
-<iframe src="https://giphy.com/embed/SJCdraB7Dp07q7FtMb" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SJCdraB7Dp07q7FtMb">via GIPHY</a></p> <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-1.png" height="500"> <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-2.png" height="500">
+https://media.giphy.com/media/SJCdraB7Dp07q7FtMb/giphy.gif <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-1.png" height="500"> <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPadAir2-2.png" height="500">
 
 <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-1.PNG" height="400"> <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-2.PNG" height="400"> <img src="https://github.com/MacKaSL/MCKPinController/blob/master/snapshots/MCKPinController-iPhone-3.PNG" height="400">
 
