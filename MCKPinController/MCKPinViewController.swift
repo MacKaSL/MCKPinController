@@ -72,7 +72,7 @@ class MCKPinViewController: UIViewController {
         
         
 //        let bundle = Bundle(identifier: "org.cocoapods.MCKPinController")
-        let ss = UIImage(named: "clear", in: resourceBundle, compatibleWith: nil)
+        let ss = UIImage(named: "clear@2x.png", in: resourceBundle, compatibleWith: nil)
         let backspaceButton = self.view.viewWithTag(-1) as! UIButton
         backspaceButton.setImage(ss, for: .normal)
         
